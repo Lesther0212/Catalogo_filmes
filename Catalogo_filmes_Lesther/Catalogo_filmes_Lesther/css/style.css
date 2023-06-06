@@ -1,0 +1,66 @@
+.movie {
+    grid-template-columns: repeat(3, 1fr);
+    display: none;
+
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Hepta Slab', Arial, Helvetica;    
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    /*display: none;*/
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    position: fixed;
+    background-color: #399ade;
+    align-items: center;
+}
+
+.modelo-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.modelo-item {
+    text-align: center;
+    max-width: 250px;
+    font-family: "Hepta Slab", Helvetica, Arial;
+    margin: 0 auto 50px auto;
+}
+
+.modelo-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.modelo-item img {
+    width: 300px;
+    height: 400px;
+}
+
+.modelo-item-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+body {
+   
+    background: linear-gradient(135deg, black, #0083b0);
+            
+}
